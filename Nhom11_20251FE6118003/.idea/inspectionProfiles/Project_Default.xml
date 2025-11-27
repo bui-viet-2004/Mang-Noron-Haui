@@ -1,0 +1,29 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="false" level="WARNING" enabled_by_default="false">
+      <option name="ignoredPackages">
+        <list>
+          <option value="colorama" />
+          <option value="ImageHash" />
+          <option value="ImageIO" />
+          <option value="joblib" />
+          <option value="lazy_loader" />
+          <option value="markdown-it-py" />
+          <option value="mdurl" />
+          <option value="namex" />
+          <option value="networkx" />
+          <option value="optree" />
+          <option value="Pygments" />
+          <option value="PyWavelets" />
+          <option value="rich" />
+          <option value="scikit-image" />
+          <option value="scikit-learn" />
+          <option value="threadpoolctl" />
+          <option value="tifffile" />
+          <option value="tqdm" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
