@@ -135,3 +135,28 @@ history = model.fit(
 
 model.save("model_final.keras")
 print("Saved: model_final.keras")
+
+
+import matplotlib.pyplot as plt
+
+#Accuracy
+plt.figure()
+plt.plot(history.history['accuracy'])
+plt.plot(history.history['val_accuracy'])
+plt.title('Model Accuracy')
+plt.xlabel('Epoch')
+plt.ylabel('Accuracy')
+plt.legend(['Train', 'Validation'])
+plt.grid(True)
+plt.show()
+
+#Loss
+plt.figure()
+plt.plot(history.history['loss'])
+plt.plot(history.history['val_loss'])
+plt.title('Model Loss')
+plt.xlabel('Epoch')
+plt.ylabel('Loss')
+plt.legend(['Train', 'Validation'])
+plt.grid(True)
+plt.show()
